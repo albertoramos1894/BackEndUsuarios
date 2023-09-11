@@ -1,0 +1,14 @@
+D:\Codigos\BackEndUsuarios\ApiUsuarios\ApiUsers.Data\bin\Debug\net7.0\ApiUsers.Data.deps.json
+D:\Codigos\BackEndUsuarios\ApiUsuarios\ApiUsers.Data\bin\Debug\net7.0\ApiUsers.Data.runtimeconfig.json
+D:\Codigos\BackEndUsuarios\ApiUsuarios\ApiUsers.Data\bin\Debug\net7.0\ApiUsers.Data.dll
+D:\Codigos\BackEndUsuarios\ApiUsuarios\ApiUsers.Data\bin\Debug\net7.0\ApiUsers.Data.pdb
+D:\Codigos\BackEndUsuarios\ApiUsuarios\ApiUsers.Data\obj\Debug\net7.0\ApiUsers.Data.csproj.AssemblyReference.cache
+D:\Codigos\BackEndUsuarios\ApiUsuarios\ApiUsers.Data\obj\Debug\net7.0\ApiUsers.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codigos\BackEndUsuarios\ApiUsuarios\ApiUsers.Data\obj\Debug\net7.0\ApiUsers.Data.AssemblyInfoInputs.cache
+D:\Codigos\BackEndUsuarios\ApiUsuarios\ApiUsers.Data\obj\Debug\net7.0\ApiUsers.Data.AssemblyInfo.cs
+D:\Codigos\BackEndUsuarios\ApiUsuarios\ApiUsers.Data\obj\Debug\net7.0\ApiUsers.Data.csproj.CoreCompileInputs.cache
+D:\Codigos\BackEndUsuarios\ApiUsuarios\ApiUsers.Data\obj\Debug\net7.0\ApiUsers.Data.dll
+D:\Codigos\BackEndUsuarios\ApiUsuarios\ApiUsers.Data\obj\Debug\net7.0\refint\ApiUsers.Data.dll
+D:\Codigos\BackEndUsuarios\ApiUsuarios\ApiUsers.Data\obj\Debug\net7.0\ApiUsers.Data.pdb
+D:\Codigos\BackEndUsuarios\ApiUsuarios\ApiUsers.Data\obj\Debug\net7.0\ApiUsers.Data.genruntimeconfig.cache
+D:\Codigos\BackEndUsuarios\ApiUsuarios\ApiUsers.Data\obj\Debug\net7.0\ref\ApiUsers.Data.dll

@@ -42,5 +42,13 @@ namespace ApiUsuarios.Controllers
             GeneralResponse<Object> response = business.DeleteUsuario(IdUsuario);
             return StatusCode(response.Code, response);
         }
+
+        [HttpPut]
+        public IActionResult Put(UsuarioDto request)
+        {
+            UsuariosBusiness business = new UsuariosBusiness();
+            GeneralResponse<Object> response = business.PutUsuario(request);
+            return StatusCode(response.Code, response);
+        }
     }
 }

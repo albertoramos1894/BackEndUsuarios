@@ -49,7 +49,6 @@ namespace ApiUsers.Data.Business
             }
             return response;
         }
-
         public GeneralResponse<UsuarioDto>GetUsuario(int IdUsuario)
         {
             GeneralResponse<UsuarioDto> response = new GeneralResponse<UsuarioDto>();
@@ -119,7 +118,6 @@ namespace ApiUsers.Data.Business
             }
             return response;
         }
-
         public GeneralResponse<Object> DeleteUsuario(int IdUsuario)
         {
             GeneralResponse<Object> response = new GeneralResponse<Object>();            
@@ -136,6 +134,38 @@ namespace ApiUsers.Data.Business
 
                     response.Success = true;
                     response.Message = usuarioDb != null ? "Se elimino el usuario." : "No existen registro de usuario.";
+                    response.Code = (int)HttpStatusCode.OK;
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Code = 500;
+                response.Message = ex.Message;
+                response.Success = false;
+            }
+            return response;
+        }
+        public GeneralResponse<Object> PutUsuario(UsuarioDto request)
+        {
+            GeneralResponse<Object> response = new GeneralResponse<Object>();
+            try
+            {
+                using (var context = new BdusersContext())
+                {
+                    Usuario usuario = new Usuario()
+                    {
+                        Id = (int) request.Id,
+                        Activo = request.Activo,
+                        Email = request.Email,
+                        Nombre = request.Nombre,
+                        Sexo = request.Sexo,
+                        UserName = request.UserName
+                    };
+                    context.Usuarios.Update(usuario);
+                    context.SaveChanges();
+
+                    response.Success = true;
+                    response.Message = "El usuario se actualizo exitosamente.";
                     response.Code = (int)HttpStatusCode.OK;
                 }
             }

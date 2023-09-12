@@ -100,7 +100,8 @@ namespace ApiUsers.Data.Business
                         Email= request.Email,
                         Nombre = request.Nombre,
                         Sexo = request.Sexo,
-                        UserName= request.UserName
+                        UserName= request.UserName,
+                        FechaNacimiento= request.FechaNacimiento
                     };
                     context.Usuarios.Add(usuario);
                     context.SaveChanges();
@@ -159,7 +160,8 @@ namespace ApiUsers.Data.Business
                         Email = request.Email,
                         Nombre = request.Nombre,
                         Sexo = request.Sexo,
-                        UserName = request.UserName
+                        UserName = request.UserName,
+                        FechaNacimiento = request.FechaNacimiento
                     };
                     context.Usuarios.Update(usuario);
                     context.SaveChanges();
